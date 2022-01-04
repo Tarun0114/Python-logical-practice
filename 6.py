@@ -1,6 +1,6 @@
-n=int(input("Enter n value : "))
-for i in range (n,0,-1):
-    for j in range(1,i+1):
-        print(i,end=" ")
-        
-    print()
+x= int(input("Enter x value : "))
+y= int(input("Enter y value : "))
+temp=x
+x=y
+y=temp
+print("The value of x after swapping: ",x ," The value of y after swapping: ",y)

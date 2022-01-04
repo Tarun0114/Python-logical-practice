@@ -1,6 +1,6 @@
-str1=input("Enter a string one:")
-str2=input("Enter a string two to be searched:")
-if str2 in str1:
-    print("1")
-else:
-    print("-1")
+a=int(input("Enter 1st number :"))
+b=int(input("Enter 2nd number :"))
+c=int(input("Enter 3rd number :"))
+d=int(input("Enter 4th number :"))
+e=int(input("Enter 5th number :"))
+print(a,b,c,d,e,sep=',')
