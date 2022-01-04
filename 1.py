@@ -1,4 +1,8 @@
-n=eval(input("Enter a number: "))
-print("Binary Equivalent of",n," is" ,bin(n))
-print("Octal Equivalent of",n," is" ,oct(n))
-print("Hexadecimal Equivalent of",n," is" ,hex(n))
+n=int(input("Enter the no of Sticks : "))
+l=[]
+for i in range(n):
+    x=int(input())
+    l.append(x)
+for i in l:
+    
+print("The average of the stick is ",m//2)
