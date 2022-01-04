@@ -1,0 +1,11 @@
+a=int(input("Enter 1st subject marks :"))
+b=int(input("Enter 2nd subject marks :"))
+c=int(input("Enter 3rd subject marks :"))
+d=int(input("Enter 4th subject marks :"))
+e=int(input("Enter 5th subject marks :"))
+print("Student Information")
+print("Marks Secured -",a,b,c,d,e,sep=',')
+total= (a+b+c+d+e)
+print("Total =", total)
+avg=(total)/5
+print("Average Percentage is: ",avg)
